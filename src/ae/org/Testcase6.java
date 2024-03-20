@@ -44,15 +44,6 @@ public class Testcase6 {
 		WebElement Msg = driver.findElement(By.id("message"));
 		Msg.sendKeys("Learn Selenium Automation");
 		
-		WebElement fileInput = driver.findElement(By.xpath("//input[@name='upload_file']"));
-		
-		File file = new File("./download.jpg");
-		
-		System.out.println(file.getAbsolutePath());
-		
-		fileInput.sendKeys(file.getAbsolutePath());
-		
-		
 
 	}
 
