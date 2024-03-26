@@ -186,6 +186,12 @@ public class Testcase14 {
 			String del = deleteMsg.getText();
 
 			System.out.println(del);
+			
+			WebElement cnBtn = driver.findElement(By.xpath("//a[@class='btn btn-primary']"));
+			cnBtn.click();
+			
+			
+			
 		}
 
 	}
